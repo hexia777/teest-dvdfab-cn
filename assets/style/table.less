@@ -1,0 +1,42 @@
+.table-base {
+  @apply min-w-1200;
+
+  td,
+  th {
+    @apply pl24 pr24 pt10 pb10;
+    border-bottom: 1px solid #EBEAEF;
+  }
+
+
+
+  thead {
+    tr {
+      background: #F4F4FA;
+    }
+
+    th {
+      @apply h-58 op60 font-normal text-left;
+      border-right: 1px solid #fff;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      @apply bg-white;
+
+      &:last-child {
+        td {
+          border: 0;
+        }
+      }
+    }
+
+    td {
+      @apply h-80;
+    }
+  }
+}

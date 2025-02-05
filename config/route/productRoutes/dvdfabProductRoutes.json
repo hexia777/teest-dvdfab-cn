@@ -1,0 +1,35 @@
+{
+  "aio": [
+    "all_in_one"
+  ],
+  "single": [
+    "blu_ray_copy",
+    "uhd_after_editor",
+    "blu_ray_after_editor",
+    "dvd_ripper",
+    "dvd_creator",
+    "blu_ray_ripper",
+    "dvd_copy",
+    "blu_ray_recorder_ripper",
+    "blu_ray_cinavia_removal",
+    "4k_recorder_ripper",
+    "uhd_ripper",
+    "4k_recorder_copy",
+    "uhd_creator",
+    "blu_ray_creator",
+    "uhd_cinavia_removal",
+    "uhd_drive_tool",
+    "uhd_copy",
+    "blu_ray_to_uhd_converter",
+    "blu_ray_recorder_copy",
+    "blu_ray_to_dvd_converter",
+    "dvd_cinavia_removal",
+    "dvd_to_blu_ray_converter",
+    "uhd_to_blu_ray_converter",
+    "nvidia_ai_enhancer",
+    "dvdfab365"
+  ],
+  "free": [
+    "hd_decrypter"
+  ]
+}

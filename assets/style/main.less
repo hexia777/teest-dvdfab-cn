@@ -1,0 +1,93 @@
+@import 'font';
+@import "iconfont/index";
+@import 'reset';
+@import 'base';
+@import "btn";
+@import "tag";
+@import "element/index";
+@import "form";
+@import "table";
+
+html {
+  font-size: @base-font-size;
+}
+
+body {
+  font-size: @base-font-size;
+  line-height: @base-line-height;
+  color: @base-text-color;
+  background-color: #fff;
+  font-weight: 500;
+  font-family: Figtree, Arial, sans-serif;
+}
+
+// 标题字号
+@fonSizeList: @font-size-xxl, @font-size-xl, @font-size-lg, @font-size-md, @font-size, @font-size-sm;
+each(@fonSizeList, {
+  h@{index},
+  .title@{index} {
+    font-size: @value;
+    line-height: @title-line-height;
+    font-weight: bold;
+  }
+})
+
+
+// .h2-md {
+//   @apply font-size-32;
+// }
+
+// .h2-sm {
+//    @apply font-size-24;
+// }
+
+// .h3-md {
+//   @apply font-size-24;
+// }
+
+// .h3-sm {
+//   @apply font-size-20;
+// }
+
+
+// @media (max-width: 768px) {
+//   html {
+//     font-size: @base-m;
+//   }
+
+//   h1 {
+//     @apply font-size-32;
+//   }
+
+//   h2 {
+//     @apply font-size-24;
+//   }
+
+//   h3 {
+//     @apply font-size-22;
+//   }
+
+//   h4 {
+//     @apply font-size-19;
+//   }
+
+//   h5,h6 {
+//     @apply font-size-16;
+//   }
+
+//   .h2-md {
+//     @apply font-size-24;
+//   }
+
+//   .h2-sm {
+//     @apply font-size-22;
+//   }
+
+//   .h3-md {
+//     @apply font-size-20;
+//   }
+
+//   .h3-sm {
+//     @apply font-size-18;
+//   }
+// }

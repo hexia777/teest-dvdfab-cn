@@ -1,0 +1,15 @@
+{
+  "single": [
+    "file_transfer",
+    "mvc_codecs",
+    "media_recover_for_dvd",
+    "media_recover_for_blu_ray",
+    "dvdfab_remote"
+  ],
+  "bundle": [
+    "media_recover_for_dvd_blu_ray"
+  ],
+  "free": [
+    "dvdfab_virtual_drive"
+  ]
+}

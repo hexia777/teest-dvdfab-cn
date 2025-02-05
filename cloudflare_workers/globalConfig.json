@@ -1,0 +1,46 @@
+{
+	"VERSION_MODULE": {
+		"article_detail": "20241212231034405",
+		"article_aggregte": "20241212231034405"
+	},
+	"URL_RE_ARTICLE_AGGREGTE": "^\\/resource\\/[a-zA-Z0-9]+\\/?|(\\/tips\\/[a-zA-Z0-9_-]+\\.htm)$",
+	"URL_RE_ARTICLE_DETAIL": "^\\/(?:abematv-downloader|amazon-downloader|apple-tv-plus-downloader|canal-plus-downloader|channel-4-downloader|crackle-downloader|crunchyroll-downloader|cw-downloader|danime-downloader|discovery-plus-downloader|disney-plus-downloader|dmm-downloader|downloader|drm-m3u8-downloader|drm-mpd-downloader|drm-video-downloader|dtv-downloader|espn-plus-downloader|fanza-downloader|fod-downloader|funimation-downloader|gyao-downloader|hbo-downloader|hulu-downloader|itvx-downloader|joyn-downloader|lemino-downloader|livenow-downloader|max-downloader|mgstage-downloader|myfans-downloader|netflix-downloader|nhk-plus-downloader|now-downloader|olympic-games-downloader|onlyfans-downloader|paramount-plus-downloader|paravi-downloader|peacock-downloader|pluto-tv-downloader|pornhub-downloader|r18-downloader|rakuten-tv-downloader|resource|rtl-plus-downloader|shahid-downloader|skyshowtime-downloader|stan-downloader|telasa-downloader|tiktok-downloader|topic|tubi-downloader|tver-downloader|twitch-downloader|unext-downloader|viki-downloader|wow-downloader|wowow-downloader|youtube-movies-downloader|youtube-to-mp3-converter|youtube-video-downloader)\\/([a-zA-Z0-9_-]+)\\.htm$",
+	"TTL_MODULE": {
+		"article_detail": 604800,
+		"article_aggregte": 259200
+	},
+	"URL_LIST_ARTICLE_AGGREGTE": ["/downloader-topics.htm", "/topic.htm", "/tips.htm", "/resource"],
+	"WHITELIST_PARAM_COMMON": [],
+	"TTL_KVCACHE": {
+		"GLOBAL_CONFIG": 259200
+	},
+	"URL_LIST_COMMON": [],
+	"WHITELIST_PARAM_PAGE": {
+		"/bookfab-new.htm": ["v"],
+		"/downloader-android-new.htm": ["v"],
+		"/downloader-mac-new.htm": ["v"],
+		"/downloader-new.htm": ["v"],
+		"/dvd-fab-new.htm": ["v"],
+		"/dvdfab-mac-new.htm": ["v"],
+		"/media-player-mac-new.htm": ["v"],
+		"/media-player-new.htm": ["v"],
+		"/media-recover-new.htm": ["v"],
+		"/musicfab-mac-new.htm": ["v"],
+		"/musicfab-new.htm": ["v"],
+		"/passkey-new.htm": ["v"],
+		"/photo-enhancer-ai-new.htm": ["v"],
+		"/recordfab-mac-new.htm": ["v"],
+		"/recordfab-new.htm": ["v"],
+		"/toolkit-new.htm": ["v"],
+		"/unifab-mac-new.htm": ["v"],
+		"/unifab-new.htm": ["v"],
+		"/video-converter-pro-new.htm": ["v"],
+		"/video-enhancer-ai-new.htm": ["v"],
+		"/videocruise-new.htm": ["v"],
+		"/virtual-drive-new.htm": ["v"],
+		"/thankyou.htm": ["c_app"],
+		"/convert-success.htm": ["c_app"]
+	},
+	"BLACKLIST_URL": ["/checkout.htm", "/card-info-pay.htm", "/card-info-onerway.htm", "/payment.htm", "/subscription-cancel.htm", "/member.htm", "/invoice.htm", "/google-auth-for-client.htm", "/faq/search-result.htm"],
+	"URL_LIST_ARTICLE_DETAIL": []
+}

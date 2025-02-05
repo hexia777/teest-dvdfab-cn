@@ -1,0 +1,8 @@
+.text-lines(@height, @line-height:1.2) {
+  display: -webkit-box;
+  -webkit-line-clamp: @height;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: @line-height;
+  text-overflow: ellipsis;
+}

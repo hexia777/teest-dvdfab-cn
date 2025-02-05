@@ -1,0 +1,18 @@
+{
+  "aio": [
+    "musicfab"
+  ],
+  "single": [
+    "line_music_converter",
+    "apple_music_converter",
+    "audible_converter",
+    "soundcloud_converter",
+    "deezer_converter",
+    "tidal_converter",
+    "qobuz_converter",
+    "amazon_music_converter",
+    "youtube_music_converter",
+    "dhits_converter",
+    "spotify_converter"
+  ]
+}

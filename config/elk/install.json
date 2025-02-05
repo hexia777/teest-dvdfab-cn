@@ -1,0 +1,762 @@
+{
+  "musicfab_x86": {
+    "app_id": "musicfab",
+    "pid": ""
+  },
+  "musicfab_x64": {
+    "app_id": "musicfab",
+    "pid": ""
+  },
+  "dvdfab_player_6_online": {
+    "app_id": "player",
+    "pid": ""
+  },
+  "streamfab_online": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "streamfab_for_mac": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "dvdfab12": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab13": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab_copy": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab_ripper": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab12_mac": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "passkey": {
+    "app_id": "passkey",
+    "pid": ""
+  },
+  "streamfab_mac": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "dvdfab_mac_player_6": {
+    "app_id": "player",
+    "pid": ""
+  },
+  "dvdfab12_x64_full": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab_creator": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "video_enhancer_ai_online": {
+    "app_id": "video_enhancer_ai",
+    "pid": ""
+  },
+  "unifab_video_converter_pro_online": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "dvdfab_virtual_drive": {
+    "app_id": "virtual_drive",
+    "pid": ""
+  },
+  "streamfab_abematv_downloader": {
+    "app_id": "streamfab",
+    "pid": 913
+  },
+  "playerfab": {
+    "app_id": "playerfab",
+    "pid": ""
+  },
+  "dvdfab_converter": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "explorerfab": {
+    "app_id": "explorerfab",
+    "pid": ""
+  },
+  "dvdfab_enlarger_ai": {
+    "app_id": "dvdfab12",
+    "pid": 812
+  },
+  "streamfab_x64": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "photo_enhancer_ai_online": {
+    "app_id": "photo_enhancer_ai",
+    "pid": ""
+  },
+  "dvdfab11": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_amazon_downloader": {
+    "app_id": "streamfab",
+    "pid": 907
+  },
+  "dvdfab_video_converter_pro_online": {
+    "app_id": "video_converter_pro",
+    "pid": ""
+  },
+  "dvdfab_uhd_drive_tool": {
+    "app_id": "dvdfab12",
+    "pid": 842
+  },
+  "streamfab_apple-tv-plus_downloader": {
+    "app_id": "streamfab",
+    "pid": 912
+  },
+  "streamfab": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "streamfab_canal-plus_downloader": {
+    "app_id": "streamfab",
+    "pid": 942
+  },
+  "unifab_toolkit": {
+    "app_id": "toolkit",
+    "pid": ""
+  },
+  "dvdfab_downloader_android": {
+    "app_id": "",
+    "pid": ""
+  },
+  "streamfab_channel-4_downloader": {
+    "app_id": "streamfab",
+    "pid": 951
+  },
+  "video_enhancer_ai": {
+    "app_id": "video_enhancer_ai",
+    "pid": ""
+  },
+  "playerfab_amazon_player": {
+    "app_id": "playerfab",
+    "pid": 980
+  },
+  "videocruise_online": {
+    "app_id": "video_cruise",
+    "pid": ""
+  },
+  "dvdfab_smoother_ai": {
+    "app_id": "dvdfab12",
+    "pid": 925
+  },
+  "playerfab_cw_player": {
+    "app_id": "playerfab",
+    "pid": 998
+  },
+  "playerfab_disney-plus_player": {
+    "app_id": "playerfab",
+    "pid": 988
+  },
+  "streamfab_crackle_downloader": {
+    "app_id": "streamfab",
+    "pid": 946
+  },
+  "media_recover_online": {
+    "app_id": "media_recover",
+    "pid": ""
+  },
+  "playerfab_x64_offline": {
+    "app_id": "playerfab",
+    "pid": ""
+  },
+  "photo_enhancer_ai": {
+    "app_id": "photo_enhancer_ai",
+    "pid": ""
+  },
+  "streamfab_crunchyroll_downloader": {
+    "app_id": "streamfab",
+    "pid": 924
+  },
+  "dvdfab_toolkit_online": {
+    "app_id": "toolkit",
+    "pid": ""
+  },
+  "streamfab_cw_downloader": {
+    "app_id": "streamfab",
+    "pid": 948
+  },
+  "streamfab_discovery_plus_downloader": {
+    "app_id": "streamfab",
+    "pid": 919
+  },
+  "streamfab_disney-plus_downloader": {
+    "app_id": "streamfab",
+    "pid": 908
+  },
+  "streamfab_dmm_downloader": {
+    "app_id": "streamfab",
+    "pid": 937
+  },
+  "streamfab_downloader_android": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "dvdfab12_full": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_drm-mpd_downloader": {
+    "app_id": "streamfab",
+    "pid": 953
+  },
+  "dvdfab_video_converter_pro": {
+    "app_id": "video_converter_pro",
+    "pid": ""
+  },
+  "streamfab_dtv_downloader": {
+    "app_id": "streamfab",
+    "pid": 940
+  },
+  "dvdfab11_mac": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_espn-plus_downloader": {
+    "app_id": "streamfab",
+    "pid": 916
+  },
+  "dvdfab_player": {
+    "app_id": "player",
+    "pid": ""
+  },
+  "dvdfab_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "streamfab_fanza_downloader": {
+    "app_id": "streamfab",
+    "pid": 918
+  },
+  "regionreset": {
+    "app_id": "",
+    "pid": ""
+  },
+  "geekit": {
+    "app_id": "",
+    "pid": ""
+  },
+  "streamfab_fod_downloader": {
+    "app_id": "streamfab",
+    "pid": 930
+  },
+  "streamfab_funimation_downloader": {
+    "app_id": "streamfab",
+    "pid": 923
+  },
+  "streamfab_max_downloader": {
+    "app_id": "streamfab",
+    "pid": 909
+  },
+  "streamfab_hulu_downloader": {
+    "app_id": "streamfab",
+    "pid": 914
+  },
+  "videocruise": {
+    "app_id": "video_cruise",
+    "pid": ""
+  },
+  "streamfab_joyn_downloader": {
+    "app_id": "streamfab",
+    "pid": 932
+  },
+  "media_recover": {
+    "app_id": "media_recover",
+    "pid": ""
+  },
+  "streamfab_m3u8-drm_downloader": {
+    "app_id": "streamfab",
+    "pid": 950
+  },
+  "streamfab_netflix_downloader": {
+    "app_id": "streamfab",
+    "pid": 906
+  },
+  "dvdfab_player_6_online_mac": {
+    "app_id": "player",
+    "pid": ""
+  },
+  "streamfab_olympic-games_downloader": {
+    "app_id": "streamfab",
+    "pid": 200001
+  },
+  "streamfab_paramount-plus_downloader": {
+    "app_id": "streamfab",
+    "pid": 910
+  },
+  "streamfab_paravi_downloader": {
+    "app_id": "streamfab",
+    "pid": 931
+  },
+  "streamfab_peacock_downloader": {
+    "app_id": "streamfab",
+    "pid": 917
+  },
+  "dvdfab10_mac_beta": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_pluto-tv_downloader": {
+    "app_id": "streamfab",
+    "pid": 943
+  },
+  "streamfab_r18_downloader": {
+    "app_id": "streamfab",
+    "pid": 922
+  },
+  "streamfab_rakuten_tv_downloader": {
+    "app_id": "streamfab",
+    "pid": 926
+  },
+  "playerfab_dvd_player": {
+    "app_id": "playerfab",
+    "pid": ""
+  },
+  "dvdfab12_copy": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "video_converter_lite_mac": {
+    "app_id": "",
+    "pid": ""
+  },
+  "playerfab_fod_player": {
+    "app_id": "playerfab",
+    "pid": 994
+  },
+  "playerfab_x86_offline": {
+    "app_id": "playerfab",
+    "pid": ""
+  },
+  "streamfab_roku-channel_downloader": {
+    "app_id": "streamfab",
+    "pid": 944
+  },
+  "dvdfab12_mac_m1": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_shahid_downloader": {
+    "app_id": "streamfab",
+    "pid": 933
+  },
+  "streamfab_stan_downloader": {
+    "app_id": "streamfab",
+    "pid": 945
+  },
+  "dvdfab_drm_video_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "dvdfab_player_5": {
+    "app_id": "player",
+    "pid": ""
+  },
+  "playerfab_free-video_player": {
+    "app_id": "playerfab",
+    "pid": 200003
+  },
+  "dvdfab_toolkit": {
+    "app_id": "toolkit",
+    "pid": ""
+  },
+  "dvdfab11_creator": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_mac_m1": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "ddvdfab12": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_tubi_downloader": {
+    "app_id": "streamfab",
+    "pid": 936
+  },
+  "dvdfab10_mac": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab12_x64": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "playerfab_hbo-max_player": {
+    "app_id": "playerfab",
+    "pid": 985
+  },
+  "dvdfabenlarger_ai": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "playerfab_hulu_player": {
+    "app_id": "playerfab",
+    "pid": 986
+  },
+  "dvdfab10": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab11_copy": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "playerfab_netflix_player": {
+    "app_id": "playerfab",
+    "pid": 981
+  },
+  "dvdfab_remote_android": {
+    "app_id": "",
+    "pid": ""
+  },
+  "dvdfab11_ripper": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab8": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_tvnow_downloader": {
+    "app_id": "streamfab",
+    "pid": 921
+  },
+  "playerfab_paramount-plus_player": {
+    "app_id": "playerfab",
+    "pid": 989
+  },
+  "playerfab_paravi_player": {
+    "app_id": "playerfab",
+    "pid": 993
+  },
+  "playerfab_pluto-tv_player": {
+    "app_id": "playerfab",
+    "pid": 996
+  },
+  "dvdfab11_converter": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_twitch_downloader": {
+    "app_id": "streamfab",
+    "pid": 934
+  },
+  "playerfab_roku-channel_player": {
+    "app_id": "playerfab",
+    "pid": 991
+  },
+  "playerfab_rtl-plus_player": {
+    "app_id": "playerfab",
+    "pid": 979
+  },
+  "streamfab_u-next_downloader": {
+    "app_id": "streamfab",
+    "pid": 911
+  },
+  "dvdfab11_x64": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "playerfab_stream_player": {
+    "app_id": "playerfab",
+    "pid": 968
+  },
+  "playerfab_stan_player": {
+    "app_id": "playerfab",
+    "pid": 978
+  },
+  "playerfab_tubi_player": {
+    "app_id": "playerfab",
+    "pid": 982
+  },
+  "playerfab_u-next_player": {
+    "app_id": "playerfab",
+    "pid": 987
+  },
+  "dvdfab_player_5_mac": {
+    "app_id": "player",
+    "pid": ""
+  },
+  "dvdfab11_x64_full": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab9": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "playerfab_ultra-hd_player": {
+    "app_id": "playerfab",
+    "pid": ""
+  },
+  "dvdfab12_converter": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab12_ripper": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab10_x64": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab11_uhd_drive_tool": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "streamfab_viki_downloader": {
+    "app_id": "streamfab",
+    "pid": 952
+  },
+  "ddvdfab11": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfabdownloader_online": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "video_enhancer_ai_onlin": {
+    "app_id": "video_enhancer_ai",
+    "pid": ""
+  },
+  "dvdfab_player_6": {
+    "app_id": "player",
+    "pid": ""
+  },
+  "media_player_2_mac": {
+    "app_id": "player",
+    "pid": ""
+  },
+  "streamfab_youtube_downloader": {
+    "app_id": "streamfab",
+    "pid": 822
+  },
+  "dvdfab_amazon_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "dvdfab_beta": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "media_player": {
+    "app_id": "player",
+    "pid": ""
+  },
+  "dvdfab12_macc": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab_mac": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "unifab": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_for_mac": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_for_apple_chip": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_x64_cnt": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_audio_upmix_ai": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_enlarger_ai": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_video_upscaler_ai": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_hdr_upconverter_ai": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_deinterlace_ai": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_smoother_ai": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_denoise_ai": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "unifab_vocal_remover_ai": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "dvd_ripper": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dmm_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "max_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "unifab_cnt": {
+    "app_id": "unifab",
+    "pid": ""
+  },
+  "virtual_drive": {
+    "app_id": "virtual_drive",
+    "pid": ""
+  },
+  "telasa_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "blu_ray_creator": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "tubi_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "peacock_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "rtl_plus_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "canal_plus_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "crunchyroll_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "channel_4_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "roku_channel_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "uhd_ripper": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "uhd_copy": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "joyn_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "dtv_downloader": {
+    "app_id": "streamfab",
+    "pid": ""
+  },
+  "dvdfab": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab_x64": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab_x86": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab_for_mac": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab_for_apple_chip": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab12_online": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab12_x86": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab12_for_mac": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab12_for_m1": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "dvdfab_editor": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  },
+  "bookfab_audiobook_creator": {
+    "app_id": "bookfab",
+    "pid": ""
+  },
+  "recordfab": {
+    "app_id": "recordfab",
+    "pid": ""
+  },
+  "recordfab_x64": {
+    "app_id": "recordfab",
+    "pid": ""
+  },
+  "recordfab_x86": {
+    "app_id": "recordfab",
+    "pid": ""
+  },
+  "dvdfab_virtual_drive_x64": {
+    "app_id": "virtual_drive",
+    "pid": ""
+  },
+  "dvdfab_virtual_drive_x86": {
+    "app_id": "virtual_drive",
+    "pid": ""
+  },
+  "dvdfab_nvidia_ai_enhancer": {
+    "app_id": "dvdfab12",
+    "pid": ""
+  }
+}

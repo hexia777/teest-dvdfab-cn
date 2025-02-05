@@ -1,0 +1,59 @@
+{
+  "prolineMaps": {
+    "streamfab": [
+      "/downloader-topics.htm",
+      "/downloader-new.htm",
+      "/downloader-mac-new.htm",
+      "/downloader-android-new.htm",
+      "/streamfab6.htm",
+      "/resource/streamfab",
+      "/streamfab-download-status.htm",
+      "/faq/streamfab"
+    ],
+    "dvdfab": [
+      "/dvd-fab-new.htm",
+      "/dvdfab-mac-new.htm",
+      "/faq/dvdfab"
+    ],
+    "unifab": [
+      "/unifab-new.htm",
+      "/unifab-mac-new.htm",
+      "/photo-enhancer-ai.htm",
+      "/toolkit-new.htm",
+      "/videocruise-new.htm",
+      "/video-enhancer-ai-new.htm",
+      "/photo-enhancer-ai-new.htm",
+      "/video-converter-pro-new.htm",
+      "/unifab-ai.htm",
+      "/faq/unifab"
+    ],
+    "musicfab": [
+      "/musicfab-new.htm",
+      "/musicfab-mac-new.htm",
+      "/faq/musicfab"
+    ],
+    "playerfab": [
+      "/media-player-new.htm",
+      "/media-player-mac-new.htm",
+      "/free-video-player.htm",
+      "/mac-blu-ray-player.htm"
+    ],
+    "passkey": [
+      "/passkey-new.htm"
+    ],
+    "recordfab":[],
+    "bookfab":[]
+  },
+  "typeMaps": {
+    "toolkit": "unifab",
+    "video_cruise": "unifab",
+    "dvdfab12": "dvdfab",
+    "streamfab_for_android":"streamfab",
+    "video_enhancer_ai": "unifab",
+    "photo_enhancer_ai": "unifab",
+    "video_converter_pro": "unifab",
+    "media_recover": "dvdfab",
+    "geekit": "dvdfab",
+    "explorerfab": "dvdfab"
+  }
+}

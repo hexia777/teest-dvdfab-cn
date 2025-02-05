@@ -1,0 +1,42 @@
+{
+  "StreamFab": [
+    "/downloader-topics.htm",
+    "/downloader-new.htm",
+    "/downloader-mac-new.htm",
+    "/downloader-android-new.htm",
+    "/streamfab6.htm",
+    "/resource/streamfab",
+    "/streamfab-download-status.htm"
+  ],
+  "DVDFab": [
+    "/dvd-fab-new.htm",
+    "/dvdfab-mac-new.htm"
+  ],
+  "Unifab": [
+    "/unifab-new.htm",
+    "/unifab-mac-new.htm",
+    "/photo-enhancer-ai.htm",
+    "/toolkit-new.htm",
+    "/videocruise-new.htm",
+    "/video-enhancer-ai-new.htm",
+    "/photo-enhancer-ai-new.htm",
+    "/video-converter-pro-new.htm",
+    "/unifab-ai.htm"
+  ],
+  "MusicFab": [
+    "/musicfab-new.htm",
+    "/musicfab-mac-new.htm"
+  ],
+  "Common": [
+    "/playerfab.htm"
+  ],
+  "PlayerFab": [
+    "/media-player-new.htm",
+    "/media-player-mac-new.htm",
+    "/free-video-player.htm",
+    "/mac-blu-ray-player.htm"
+  ],
+  "Passkey": [
+    "/passkey-new.htm"
+  ]
+}

@@ -1,0 +1,447 @@
+@import "mixin";
+
+
+.figtree() {
+  font-family: Figtree, Arial, sans-serif;
+}
+
+.error {
+  font-size: @font-size-xs;
+  color: @error-color;
+}
+
+.success {
+  font-size: @font-size-xs;
+  color: @success-color;
+}
+
+/**** 功能颜色 *****/ 
+// link
+.color-link {
+  color: @link-text-color !important;
+  &:hover {
+    cursor: pointer;
+    @apply underline;
+  }
+}
+.deep-link-white a {
+  color: @text-white-color;
+  @apply underline;
+  cursor: pointer;
+  &:hover {
+    .white-opacity(0.7)
+  }
+}
+.primary-link {
+  color: @primary-color !important;
+  &:hover {
+    cursor: pointer;
+    @apply underline;
+  }
+  a {
+    color: @primary-color !important;
+    &:hover {
+      cursor: pointer;
+      @apply underline;
+    }
+  }
+}
+.secondary-link {
+  color: @secondary-color !important;
+  &:hover {
+    cursor: pointer;
+    @apply underline;
+  }
+}
+
+// 价格颜色
+.color-price {
+  color: @secondary-color;
+}
+.color-price2 {
+  color: @price-color;
+}
+/**** 基础颜色 ****/
+
+// 正文字体
+.text-color {
+  color: @base-text-color;
+}
+// 灰色
+.gray-color {
+  color: @text-gray-color;
+}
+// 警告
+.warning-color {
+  color: @warning-color;
+}
+
+// 错误
+.error-color {
+  color: @error-color;
+}
+// 成功
+.success-color {
+  color: @success-color;
+}
+// 成功
+.disable-color {
+  color: @disable-color;
+}
+
+.sixth-color {
+  color: @sixth-color;
+}
+
+// 多行省略类
+@textLines: 4,3,5,6;
+each(@textLines, {
+  .text-line-@{value} {
+    .text-lines(@value);
+  }
+})
+
+
+
+// 字体类
+.font-s-14 {
+  font-size: @font-size-xs;
+}
+.font-s-16 {
+  font-size: @font-size-sm;
+}
+.font-s-18 {
+  font-size: @font-size;
+}
+.font-s-20 {
+  font-size: @font-size-md-s;
+}
+.font-s-24 {
+  font-size: @font-size-md;
+}
+.font-s-32 {
+  font-size: @font-size-lg;
+}
+.font-s-40 {
+  font-size: @font-size-xl;
+}
+.font-s-42 {
+  font-size: @font-size-xxl;
+}
+
+
+
+// 圆角类
+.b-radius-lg {
+  border-radius: @b-radius-lg;
+}
+.b-radius-md {
+  border-radius: @b-radius-md;
+}
+.b-radius-sm {
+  border-radius: @b-radius-sm;
+}
+
+// 主题相关
+// 页面代码块
+.block-box { 
+  padding: @gap-lg 0;
+  &.no-bg {
+    & + .no-bg {
+      padding-top:0
+    }
+  }
+  &.has-bg {
+    & + .has-bg {
+      padding-top:0
+    }
+    &:not(.bg-normal) + .bg-normal {
+      padding-top: @gap-lg
+    }
+    &.bg-normal + .has-bg:not(.bg-normal) {
+      padding-top: @gap-lg
+    }
+  }
+  // 页面内导航兼容
+  & + .pro-nav-bar-box { 
+    & + .block-box {
+      padding-top: 0;
+    }
+  }
+  &.middle {
+    padding: @gap-md 0;
+  }
+  &.no-pd {
+    padding:0;
+  }
+}
+.is-mobile {
+  .block-box { 
+    & + .pro-nav-bar-box { 
+      & + .block-box {
+        padding-top: @gap-lg;
+      }
+    }
+  }
+}
+.has-bg {
+  background-color: @bg-base-color;
+}
+
+// 渲染页面标题内 span 的颜色
+.renderTitleSpan(@color) {
+  .loop(@i) when (@i > 0) {
+    h@{i},
+    .title@{i} {
+     &.primary span {
+        color: @color;
+      }
+    }
+    .loop(@i - 1);
+  }
+  .loop(6);
+}
+
+// 下面数组变量的 length 需要一致
+// 主题（产品线）
+@themeGroup: dvdfab12, streamfab, musicfab, playerfab, passkey, bookfab, recordfab, default;
+// 块的背景颜色
+@bgColors: @bg-df-color, @bg-sf-color, @bg-mf-color, @bg-pf-color, @bg-ps-color, @bg-bf-color, @bg-rf-color, @bg-base-color;
+// 文字主要颜色
+@textColors: @primary-color, @primary-color, @mf-primary-color, @primary-color, @primary-color,@primary-color, @rf-primary-color, @primary-color;
+// 边框主题颜色
+@borderColors: @border-color, @border-color, @mf-border-color, @border-color, @border-color, @border-color, @rf-border-color, @border-color;
+
+// 按钮主要颜色
+@btnColors: @default-color,@default-color,@default-color, @default-color, @default-color, @default-color, @rf-primary-color, @default-color;
+@btnHoverColors: @btn-primary-color-h, @btn-primary-color-h, @btn-primary-color-h,@btn-primary-color-h, @btn-primary-color-h, @btn-primary-color-h, @rf-primary-color-h, @btn-primary-color-h;
+
+// 循环赋值处理
+each(@bgColors, {
+  // 从 @themeGroup 中取值
+  @themeValue: extract(@themeGroup, @index);
+  // 页面大段落的块级背景（分主题）
+  .theme-@{themeValue} {
+    // 正产背景色(浅色)
+    .bg-normal {
+      background-color: @value;
+    }
+    // 文字主题色
+    .text-primary-color {
+      color: extract(@textColors, @index);
+    }
+    // hover背景主题色
+    .bg-hover-primary {
+      &:hover{
+        background-color: extract(@textColors, @index);
+      } 
+    }
+    // primary 背景颜色(深色)
+    .bg-primary {
+      background-color: extract(@textColors, @index);
+    }
+    // 边框颜色 - 作为背景
+    .border-bg-primary {
+      background-color: extract(@borderColors, @index);
+    }
+    // 边框颜色 - 作为边框
+    .border-primary {
+      border-color: extract(@borderColors, @index);
+    }
+    .renderTitleSpan(extract(@textColors, @index));
+
+    // 主要颜色
+    --primary-color: extract(@btnColors, @index);
+    --primary-hover-color:  extract(@btnHoverColors, @index);
+    --border-primary-color:  extract(@borderColors, @index);
+  }
+  // 小组件or小块级元素直接分产品线的的背景
+  .bg-@{themeValue} {
+    background-color: @value;
+  }
+})
+
+// dvdfab 第二种背景色
+.bg-dvdfab2 {
+  background-color: @bg-df-color2;
+  &.has-bg {
+    padding: 0;
+  }
+}
+
+// 灰色背景
+.bg-gray {
+  background-color: @bg-gray;
+}
+
+// 下面数组变量的 length 需要一致
+// 主题（产品线）
+@navThemeGroup: dvdfab, musicfab;
+// 块的背景颜色
+@navBgColors: @bg-df-nav-color,@bg-mf-nav-color;
+// 文字主要颜色
+@navTextColors: @text-df-nav-color,@text-mf-nav-color;
+// 渐变主题颜色
+@navLinearColors: @linear-df-nav-color,@linear-mf-nav-color;
+@navLinearBorderColors: @linear-df-nav-border-color,@linear-mf-nav-border-color;
+
+// 循环赋值处理
+each(@navBgColors, {
+  // 从 @themeGroup 中取值
+  @navThemeValue: extract(@navThemeGroup, @index);
+  // 页面大段落的块级背景（分主题）
+  .theme-nav-@{navThemeValue} {
+    .active {
+        &:not(.nohover){
+          color: extract(@navTextColors, @index);
+        }
+        a:not(.nohover) {
+          color: extract(@navTextColors, @index);
+        }
+    }
+    // 正产背景色(浅色)
+    .bg-normal {
+      background-color: @value;
+    }
+    // 文字主题色
+    .text-primary-color {
+      color: extract(@navTextColors, @index);
+    }
+    // hover背景主题色
+    .bg-hover-primary {
+      &:hover{
+        background-color: extract(@navTextColors, @index);
+      } 
+    }
+    // hover文字主题色
+    .text-hover-color {
+      &:hover{
+        color: extract(@navTextColors, @index);
+        a {
+          color: extract(@navTextColors, @index);
+        }
+      }
+    }
+    // primary 背景颜色(深色)
+    .bg-primary {
+      background-color: extract(@navTextColors, @index);
+    }
+    // 边框颜色 - 作为背景
+    .linear-bg-primary {
+      &:hover {
+        background: extract(@navLinearColors, @index);
+        a {
+          color: extract(@navTextColors, @index);
+        }
+        &::before,
+        &::after {
+          background: extract(@navLinearBorderColors, @index);
+        }
+      }
+    }
+  }
+  // 小组件or小块级元素直接分产品线的的背景
+  .bg-@{navThemeValue} {
+    background-color: @value;
+  }
+})
+
+
+
+// 通用边距
+@gapPxNum: var(--gap-8),var(--gap-xs),var(--gap-12),var(--gap-16),var(--gap-18),var(--gap-base),var(--gap-24),var(--gap-30),var(--gap-32),var(--gap-md),var(--gap-lg);
+@gapKeyNums: 8,10,12,16,18,20,24,30,32,40,80;
+@directList: t,b,l,r;
+@directFullList: top,bottom,left,right;
+.render-gaps (@keyValue, @gapVal) {
+  each(@directList, {
+    @dirValue:extract(@directFullList, @index);
+    .p@{value}-@{keyValue}, .p@{value}@{keyValue} {
+      padding-@{dirValue}: @gapVal;
+    }
+    .m@{value}-@{keyValue}, .m@{value}@{keyValue} {
+      margin-@{dirValue}: @gapVal;
+    }
+  })
+}
+html {
+  each(@gapKeyNums, {
+    @gapValue: extract(@gapPxNum, @index);
+    .render-gaps(@value, @gapValue);
+  })
+}
+
+// border 的颜色
+.border-primary-color {
+  border-color: @border-color;
+}
+.border-mf-color {
+  border-color: @mf-border-color;
+}
+.border-gray {
+  border-color: @border-gray;
+}
+.border-gray2 {
+  border-color: @border-gray2;
+}
+
+// 阴影
+// 上层阴影
+.up-shandow {
+  box-shadow: @up-shandow;
+}
+// 下层阴影
+.down-shandow {
+  box-shadow: @down-shandow;
+}
+
+// 行高
+.line-h-title {
+  line-height: @title-line-height;
+}
+.line-h-text {
+  line-height: @base-line-height;
+}
+// 精灵图 hover 切换
+.icon_cursor {
+  cursor: pointer;
+  font-size: 0;
+  &.active {
+    .hover {
+      display: inline-block;
+    }
+    .default {
+      display: none;
+    }
+  }
+  .hover {
+    display: none;
+  }
+  &:hover {
+    .hover {
+      display: inline-block;
+    }
+    .default {
+      display: none;
+    }
+
+  }
+}
+.page-error-page,
+.layout-default {
+  padding-top: @nav-height;
+  @media (max-width: 1200px) {
+    &[data-has-headbanner=has-headbanner] {
+      padding-top: calc(@nav-height + @promotion-height);
+    }
+    &[data-has-subnav=has-subnav] {
+      padding-top: calc(@nav-height + @sub-nav-height);
+    }
+    &[data-has-headbanner=has-headbanner]&[data-has-subnav=has-subnav]{
+      padding-top: calc(@nav-height + @sub-nav-height + @promotion-height);
+    }
+  }
+}
+@media (max-width: 640px) {
+  
+}

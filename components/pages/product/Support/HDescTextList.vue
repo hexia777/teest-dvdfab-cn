@@ -1,0 +1,84 @@
+<script setup lang="ts">
+const props = defineProps({
+  blockClass: {
+    type: Object,
+    default: () => {
+      return {
+        value: 'has-bg bg-normal',
+      }
+    },
+  },
+  // 标题
+  title: {
+    type: String,
+    default: '',
+  },
+  // 描述信息
+  desc: {
+    type: String,
+    default: '',
+  },
+  // 底部描述信息
+  bottomDesc: {
+    type: String,
+    default: '',
+  },
+  // 自定样式
+  style: {
+    type: Object,
+    default: () => {},
+  },
+  // 内容 list
+  contents: {
+    type: Array<any>,
+    default: () => [],
+  },
+})
+</script>
+
+<template>
+  <div class="block-box" :class="[blockClass?.value]" :style="style">
+    <BaseContainer>
+      <div class="flex flex-col flex-items-center flex-justify-center">
+        <h1 class="text-center mb20" v-html="props.title"></h1>
+        <p class="mb-desc mb40 text-center" v-html="props.desc"></p>
+        <div class="hdtl-content w100% max-w-650">
+          <template v-for="(item, idx) in contents" :key="'hdtl-item' + idx">
+            <div class="hdtl-item">
+              <div class="title5 mb10" v-html="item.title"></div>
+              <ul class="hdtl-item-list">
+                <li v-for="(text, idx2) in item.list" :key="'hdtl-item-list' + idx2" v-html="text"></li>
+              </ul>
+            </div>
+          </template>
+        </div>
+        <p class="mb-desc mt40 text-center" v-html="props.bottomDesc"></p>
+      </div>
+    </BaseContainer>
+  </div>
+</template>
+
+<style scoped lang="less">
+.hdtl-content {
+  .hdtl-item {
+    & + .hdtl-item {
+      margin-top: 24px;
+    }
+    li {
+      list-style-type: disc;
+      & + li {
+        margin-top: 10px;
+      }
+    }
+    :deep(li) {
+      span {
+        border-radius: 4px;
+        border: 1px solid @secondary-color;
+        color: @secondary-color;
+        padding: 0 8px;
+        margin-left: 12px;
+      }
+    }
+  }
+}
+</style>

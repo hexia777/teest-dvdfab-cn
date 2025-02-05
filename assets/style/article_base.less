@@ -1,0 +1,269 @@
+.article-txt {
+  font-size: 18px;
+  line-height: 1.8;
+}
+.post-content {
+  .tc {
+    text-align: center;
+  }
+  // div,
+  // p {
+  //   contain-intrinsic-size: auto 12.5rem;
+  // }
+  .article-txt;
+  p {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    // line-height: 2;
+    word-break: break-word;
+    position: relative;
+    z-index: 1;
+  }
+  th,
+  td {
+    p {
+      word-break: initial;
+    }
+  }
+  h2 {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-weight: bold;
+    // font-family: 'Quicksand', Verdana, 'Arial Narrow';
+    word-break: break-word;
+  }
+
+  li {
+    font-size: 17px;
+    // line-height: 2;
+    padding: 5px 0;
+    word-break: break-word;
+  }
+
+  ul,
+  ol {
+    padding-left: 1.25rem;
+    list-style-position: inside;
+  }
+
+  ol li {
+    list-style-type: decimal;
+  }
+
+  ul,
+  ul li {
+    list-style-type: disc;
+  }
+
+  ul ul,
+  ul ul li {
+    list-style-type: circle;
+  }
+  a:not([class]):not([id]) {
+    color: #00a9f0;
+    cursor: pointer;
+  }
+
+  a:not([class]):not([id]):hover {
+    text-decoration: underline;
+  }
+
+  a[name^='anchor_']:hover {
+    text-decoration: none;
+  }
+}
+// 解决文章页滚动条滚动条造成cls偏移的问题 - start
+html {
+  overflow-y: scroll; //这是为了兼容ie8，不支持:root, vw
+}
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+}
+// 解决滚动条造成cls偏移的问题 - end
+// .page-content
+.post-content {
+  background: #fff;
+
+  overflow: hidden;
+  a[name]:not([id]) {
+    position: relative;
+    z-index: -1;
+    color: #3b5159;
+    cursor: auto;
+    &:hover {
+      text-decoration: none;
+    }
+    &[name='default-color'] {
+      cursor: pointer;
+    }
+  }
+  ul.first {
+    padding-left: 0;
+    border-bottom: 1px solid #e4eaeb;
+    padding: 10px 0;
+    &[style='height: 0px; overflow: hidden;'] {
+      display: none;
+    }
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.word-break {
+  word-break: normal;
+  word-wrap: break-word;
+}
+.directory-list {
+  background-color: #f4f8f9;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+  .title {
+    border-bottom: 1px solid #e4eaeb;
+    @apply font-size-18;
+    position: relative;
+    font-weight: bold;
+    padding: 16px 0;
+    &::before {
+      content: '';
+      position: absolute;
+      left: -20px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      width: 4px;
+      height: 28px;
+      background: #00a9f0;
+      box-shadow: -3px 0px 5px 0px rgba(0, 169, 240, 0.3);
+    }
+  }
+  .directory-li {
+    position: relative;
+    white-space: break-spaces;
+    cursor: pointer;
+    &:last-child {
+      border-bottom: none;
+    }
+    &:hover {
+      .directory-arrow-i {
+        color: @primary-color;
+      }
+      a {
+        color: @link-text-color;
+      }
+    }
+    .directory-link {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .table-tit-icon {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .title {
+    cursor: pointer;
+    &:hover {
+      .directory-arrow-i {
+        color: @primary-color;
+      }
+    }
+    .directory-arrow-i {
+      top: 16px;
+    }
+  }
+
+  .directory-arrow-i {
+    position: absolute;
+    top: 6px;
+    right: 0;
+    cursor: pointer;
+    display: inline-block;
+    // width: 20px;
+    // height: 20px;
+    color: #cdc7c7;
+    &:hover {
+      color: @primary-color;
+    }
+  }
+  .cont-close-n {
+    transform: rotate(180deg);
+  }
+
+  ul.first {
+    li {
+      position: relative;
+      .sid-close-n {
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .no-list-style {
+    list-style: none;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.25s linear;
+    padding: 0;
+    a[href^='#'] {
+      color: #909090;
+    }
+    .directory-li {
+      @apply p0 pt4;
+      list-style: none;
+      &:hover {
+        a {
+          color: @link-text-color;
+        }
+      }
+    }
+    > ul {
+      margin-left: 20px;
+      position: relative;
+      &::before {
+        content: '-';
+        position: absolute;
+        left: 5px;
+        top: 3px;
+        bottom: 0;
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .page-content .post-content {
+    h2 {
+      font-size: 20px;
+    }
+    h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+  }
+}

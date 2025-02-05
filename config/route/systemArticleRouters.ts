@@ -1,0 +1,51 @@
+export const SystemArticleRouters: string[] = [
+  // 无banner 有侧边栏
+  'shipping_policy',
+  'terms_of_use',
+  'cookies_policy',
+  'purchase_policy',
+  'opensource',
+  'legal_disclaimer',
+  'privacy',
+  'technology',
+  'dvdfab_pad',
+  'statement',
+  'multi_angle_movies',
+  'refund_policy',
+  'dvdfab_user_license_agreement',
+  'links',
+  'terms_of_license_authorization',
+  'webmaster',
+  // 无banner 无侧边栏
+  'company',
+]
+
+export const OldArticleRouters: string[] = [
+  //  有banner 无侧边栏
+  'cinavia',
+  // 有banner 有侧边栏
+  'bdinfo',
+  'videotoolbox',
+  'bdfix',
+  'pathplayer',
+  'lightning_recoding',
+  '8k_uhd',
+  'awards_and_reviews',
+  'exactread',
+  'stealthy_clone',
+  'about_4k',
+  'blupath',
+  'h265',
+  'nvidia_cuda',
+  'intel_quick_sync',
+  'miniso',
+  '10_bit_conversion_profile',
+  'uhdpath',
+  'how_to_register',
+  '4k_uhd_drives',
+  'lightning_shrink',
+  'bdshrink',
+  'cloud_decryption',
+  'metainfo',
+  'amd_app',
+]

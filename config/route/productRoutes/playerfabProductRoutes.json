@@ -1,0 +1,12 @@
+{
+  "aio": [
+    "playerfab"
+  ],
+  "single": [
+    "free_video_player",
+    "ultra_hd_player",
+    "mac_blu_ray_player",
+    "stream_player",
+    "dvd_player"
+  ]
+}

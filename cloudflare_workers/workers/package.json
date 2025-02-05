@@ -1,0 +1,19 @@
+{
+  "name": "workers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dvdfab_worker.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitest/ui": "^2.1.8",
+    "vitest": "^2.1.8"
+  }
+}

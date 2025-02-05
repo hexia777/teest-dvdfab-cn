@@ -1,0 +1,6 @@
+dist
+node_modules
+.nuxt
+.output
+elk_report
+utils/webpush.js

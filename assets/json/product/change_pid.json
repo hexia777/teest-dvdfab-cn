@@ -1,0 +1,38 @@
+{
+  "712": {
+    "toPid": 62037,
+    "isTypesNoChange": [
+      "upgrade",
+      "upgrade_user",
+      "is_new_user",
+      "checkout"
+    ]
+  },
+  "1712": {
+    "toPid": 62038,
+    "isTypesNoChange": [
+      "upgrade",
+      "upgrade_user",
+      "is_new_user",
+      "checkout"
+    ]
+  },
+  "757": {
+    "toPid": 761,
+    "isTypesNoChange": [
+      "",
+      "new",
+      "upgrade",
+      "checkout"
+    ]
+  },
+  "1757": {
+    "toPid": 1761,
+    "isTypesNoChange": [
+      "",
+      "new",
+      "upgrade",
+      "checkout"
+    ]
+  }
+}

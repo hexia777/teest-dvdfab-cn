@@ -1,0 +1,15 @@
+{
+  "aio": [
+    "passkey"
+  ],
+  "single": [
+    "passkey_uhd_drive_tool",
+    "passkey_for_blu_ray_recorder",
+    "passkey_for_blu_ray",
+    "passkey_for_dvd",
+    "passkey_for_4k_recorder"
+  ],
+  "free": [
+    "passkey_lite"
+  ]
+}

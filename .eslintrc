@@ -1,0 +1,68 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  // "parser": "@typescript-eslint/parser",
+  "plugins": ["prettier", "vue", "@typescript-eslint"],
+  "extends": [
+    "@nuxtjs",
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:import/typescript",
+    "prettier",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:vue/vue3-recommended",
+    "plugin:nuxt/recommended"
+  ],
+  "rules": {
+    "camelcase": "off",
+    "ts/comment-format": "off",
+    // vue/multi-word-component-names
+    "vue/multi-word-component-names": "off",
+    "prettier/prettier": "error",
+    "no-console": "warn",
+    "no-debugger": "warn",
+//    "vue/max-attributes-per-line": ["error", {
+//      "multiline": {
+//        "max": 1
+//      }
+//    }],
+    "max-len": [
+      "error",
+      {
+        "code": 120,
+        "tabWidth": 2
+      }
+    ],
+    // 未使用
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    // "@typescript-eslint/no-implicit-any": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "vue/html-self-closing": [
+      "error",
+      {
+        "html": {
+          "void": "always",
+          "normal": "never",
+          "component": "always"
+        },
+        "svg": "always",
+        "math": "always"
+      }
+    ],
+    "vue/html-indent": ["error", 2], // 设置HTML标签缩进为2个空格，同时也会处理换行
+    "vue/no-v-html": "off",
+    "vue/one-component-per-file": "off", // 一个文件只能返回一个组件
+    "vue/singleline-html-element-content-newline": "off",
+    // 限制标签的顺序
+    "vue/component-tags-order": [
+      "error",
+      {
+        "order": ["script", "template", "style"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "common": {
+    "open": true,
+    "route_name": "promotion",
+    "url": "/promotion.htm",
+    "info_file": "promotion_info.json",
+    "page_type": ""
+  },
+  "streamfab": {
+    "open": true,
+    "route_name": "streamfab_promotion",
+    "url": "/streamfab-promotion.htm",
+    "info_file": "streamfab_promotion_info.json",
+    "page_type": "net",
+    "client_apps": [
+      "streamfab",
+      "recordfab"
+    ],
+    "client_apps_promotion": [
+      "streamfab",
+      "streamfab_us"
+    ]
+  },
+  "unifab": {
+    "open": true,
+    "route_name": "unifab_promotion",
+    "url": "/unifab-promotion.htm",
+    "info_file": "unifab_promotion_info.json",
+    "page_type": "",
+    "client_apps": [
+      "unifab",
+      "toolkit",
+      "videocruise",
+      "photo_enhancer_ai"
+    ],
+    "client_apps_promotion": [
+      "unifab",
+      "toolkit",
+      "videocruise",
+      "photo_enhancer_ai"
+    ]
+  },
+  "dvdfab": {
+    "open": true,
+    "route_name": "dvdfab_promotion",
+    "url": "/dvdfab-promotion.htm",
+    "info_file": "dvdfab_promotion_info.json",
+    "page_type": "",
+    "client_apps": [
+      "dvdfab12"
+    ],
+    "client_apps_promotion": [
+      "dvdfab12"
+    ]
+  },
+  "passkey": {
+    "open": true,
+    "route_name": "passkey_promotion",
+    "url": "/passkey-promotion.htm",
+    "anchor_point": "",
+    "info_file": "passkey_promotion_info.json",
+    "page_type": "",
+    "client_apps": [
+      "passkey"
+    ],
+    "client_apps_promotion": [
+      "passkey"
+    ]
+  },
+  "playerfab": {
+    "open": true,
+    "route_name": "playerfab",
+    "url": "/playerfab.htm",
+    "info_file": "playerfab_promotion_info.json",
+    "page_type": "",
+    "client_apps": [
+      "playerfab"
+    ],
+    "client_apps_promotion": [
+      "playerfab"
+    ]
+  },
+  "musicfab": {
+    "open": true,
+    "route_name": "musicfab_promotion",
+    "url": "/musicfab-promotion.htm",
+    "info_file": "musicfab_promotion_info.json",
+    "page_type": "",
+    "client_apps_promotion": [
+      "musicfab"
+    ]
+  },
+  "typeMaps": {
+    "toolkit": "unifab",
+    "video_cruise": "unifab",
+    "dvdfab12": "dvdfab",
+    "streamfab_for_android":"streamfab",
+    "video_enhancer_ai": "unifab",
+    "photo_enhancer_ai": "unifab",
+    "video_converter_pro": "unifab",
+    "media_recover": "dvdfab",
+    "other":"dvdfab",
+    "geekit": "dvdfab",
+    "dvdfab_365": "dvdfab",
+    "explorerfab": "dvdfab",
+    "recordfab":"streamfab"
+  }
+}

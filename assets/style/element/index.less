@@ -1,0 +1,101 @@
+#__nuxt {
+
+  .el-textarea__inner {
+    font-size: @base-font-size;
+  }
+
+  .el-input {
+    --el-input-height: 48px;
+    --el-input-border-radius: 4px;
+    font-size: 16px;
+    --el-input-text-color: @base-text-color;
+  }
+
+  .el-checkbox {
+    --el-checkbox-font-size: @font-size;
+    --el-checkbox-text-color: @base-text-color;
+    --el-checkbox-checked-text-color: @base-text-color;
+    --el-checkbox-input-width: 16px;
+    --el-checkbox-input-height: 16px;
+  }
+
+
+  .el-input__wrapper {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .el-form-item {
+    --font-size: @base-font-size;
+  }
+
+  .el-form {
+    --el-form-label-font-size: @base-font-size;
+  }
+
+  .el-checkbox__inner::after {
+    @apply left-5 top-2;
+  }
+
+  .el-checkbox__label {
+    @apply  font-600;
+  }
+
+  .el-select__wrapper {
+    @apply min-h-48 line-height-48 font-size-16;
+  }
+
+  .el-select__caret {
+    color: @base-text-color;
+  }
+
+  .el-select__placeholder {
+    color: @base-text-color;
+
+    &.is-transparent {
+      @apply op40;
+    }
+  }
+  .el-skeleton {
+    --el-skeleton-color: rgba(240, 242, 245, 0.3);
+    --el-skeleton-to-color: rgba(230, 232, 235, 0.5) !important;
+    &.dark {
+      --el-skeleton-color: rgba(160, 205, 245, 0.3);
+      --el-skeleton-to-color: rgba(160, 205, 245, 0.5) !important;
+    }
+    &.btn-buy {
+      --el-skeleton-color: rgba(255, 155, 25, 1);
+      --el-skeleton-to-color: rgba(255, 155, 25, 0.7) !important;
+    }
+  }
+  .el-skeleton__image {
+    border-radius: 12px;
+  }
+}
+
+div.el-popper {
+  @apply p8 !border-none b-rd-4;
+  box-shadow: 0px 2px 8px 0px rgba(84,80,88,0.06);
+
+  .el-popper__arrow::before {
+  @apply !border-none;
+  }
+}
+
+:root {
+  --el-border-color: @border-gray !important;
+  --el-border-color-hover: @border-color !important;
+  --el-color-danger: @error-color !important;
+  --el-text-color-regular:@base-text-color !important;
+}
+
+.el-message {
+  .el-message__content {
+    color: @base-text-color !important;
+    font-size:@base-font-size;
+  }
+}
+
+.el-message--success {
+  --el-message-text-color: @success-color !important;
+}

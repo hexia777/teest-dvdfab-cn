@@ -1,0 +1,262 @@
+:root {
+  --font-size-xxl: 42px;
+  --font-size-xl: 40px;
+  --font-size-lg: 32px;
+  --font-size-md: 24px;
+  --font-size-md-s: 20px;
+  --font-size: 18px;
+  --font-size-sm: 16px;
+  --font-size-xs: 14px;
+  --font-size-28: 28px;
+  // 间距
+  --gap-lg: 80px;
+  --gap-md: 40px;
+  --gap-base: 20px;
+  --gap-xs: 10px;
+  --gap-8: 8px;
+  --gap-12: 12px;
+  --gap-16: 16px;
+  --gap-18: 18px;
+  --gap-24: 24px;
+  --gap-30: 30px;
+  --gap-32: 32px;
+
+  // 圆角
+  --b-radius-lg: 100px;
+  --b-radius-md: 30px;
+  --b-radius-sm: 12px;
+
+  // 导航高度
+  --nav-height: 72px;
+  // 二级导航高度
+  --sub-nav-height: 72px;
+  // 活动 banner 高度
+  --promotion-hd-height: 64px;
+
+  // 主要颜色
+  --primary-color: #00a9f0;
+  --primary-hover-color: #1ab2f2;
+  --border-primary-color: #b4e9ff;
+}
+
+@root: var(--font-size-sm);
+// @base: unit(@root, rem);
+@base-m: var(--font-size-xs);
+
+// 图片路径
+@img-path: `process.env.VITE_PACK_ENV === 'prod' ? 'https://c.dvdfab.cn/images':
+  'https://images1.dvdfab.cn/images' `;
+
+// 主题颜色
+@default-color: #00a9f0;
+@primary-color: var(--primary-color); // 全局主色
+@secondary-color: #ff9000; // 次要颜色
+@third-color: #00b5f8; // 辅助色1
+@fourth-color: #ff9600; // 辅助色2
+@fifth-color: #fff000; // 辅助色3
+@sixth-color: #ffb143; // 辅助色4
+
+// musicfab 主题色
+@mf-primary-color: #00bda1; // musicfab 主要颜色
+
+// recordfab 主题色
+@rf-primary-color: #4162FB; // recordfab 主要颜色
+@rf-primary-color-h: #5472fb; // recordfab hover 颜色
+
+
+// navBar 主题颜色
+@bg-df-nav-color: #F1FAFD; // DVDFab背景色
+@bg-mf-nav-color: #ECFCF8; // MusicFab背景色
+@text-df-nav-color: #00A9F0; // DVDFab文字颜色
+@text-mf-nav-color: #00BDA1; // MusicFab文字颜色
+@linear-df-nav-color: linear-gradient( 270deg, rgba(235,249,255,0) 0%, #EBF9FF 50%, rgba(235,249,255,0) 100%);// DVDFab渐变色
+@linear-mf-nav-color: linear-gradient( 270deg, rgba(236,252,248,0) 0%, #ECFCF8 50%, rgba(236,252,248,0) 100%); // MusicFab渐变色
+@linear-df-nav-border-color: linear-gradient( 270deg, rgba(0,169,240,0) 0%, #00A9F0 50%, rgba(0,169,240,0) 100%);// DVDFab渐变色
+@linear-mf-nav-border-color:  linear-gradient( 270deg, rgba(0,189,161,0) 0%, #00BDA1 50%, rgba(0,189,161,0) 100%); // MusicFab渐变色
+
+// 背景色
+@bg-base-color: #f9f9f9; // 通用
+@bg-df-color: #ecfcf8; // DVDFab背景色
+@bg-df-color2: #e2f7f2; // DVDFab背景色 2
+@bg-sf-color: #ebf9ff; // StreamFab背景色
+@bg-mf-color: #ecfcf8; // MusicFab背景色
+@bg-pf-color: #f4f8f9; // PlayerFab背景色
+@bg-ps-color: #f6f1ff; // passkey 背景色
+@bg-bf-color: #F4F6FF; // bookfab 背景色
+@bg-rf-color: #F6FAFF; // recordfab 背景色
+@bg-gray: #f9f9f9; // 通用灰色
+@bg-gray2: #f4f4f4; // 灰色
+@bg-white: #ffffff; // 白色
+@bg-op-white: rgba(255, 255, 255, 0.6);
+
+// 边框颜色
+@border-color: #b4e9ff; // 边框颜色1
+@mf-border-color: #b8e7db; // 边框颜色2
+@rf-border-color: #e2e7ff; // 边框颜色3
+@border-gray: #e4eaeb; // 灰色边框
+@border-gray1: #eeeeee; // 灰色边框1和分割线颜色
+@border-gray2: #dbdee0; // 灰色边框2
+
+@border-primary-color: var(--border-primary-color);
+
+// 阴影
+@down-shandow: 0px 6px 20px 0px rgba(13, 53, 68, 0.1); // 下层阴影
+@up-shandow: 0px 15px 30px 0px rgba(0, 0, 0, 0.2); // 上层阴影
+
+// 按钮颜色
+@btn-primary-color: @primary-color; // 主要
+@btn-primary-color-h: var(--primary-hover-color); // 主要hover颜色
+
+@btn-secondary-color: @secondary-color; // 购买按钮颜色
+@btn-secondary-color-h: #ff9b19; // 购买按钮hover颜色
+
+// 价格文字颜色
+@price-color: @fifth-color;
+
+// 文字颜色
+@base-text-color: #333333;
+@text-gray-color: #909090;
+
+@base-text-color-60: rgba(51, 51, 51, 0.6);
+@base-text-color-40: rgba(51, 51, 51, 0.4);
+@text-white-color: #fff;
+
+@primary-text-color: @primary-color;
+@link-text-color: @primary-color;
+@link-text-color-h: @third-color;
+
+//表单验证颜色
+@cancel-color: @base-text-color-40;
+@success-color: #33B81F;
+@error-color: #ff5353;
+@warning-color: #ff6c00;
+@complete-color: @base-text-color-60;
+
+@disable-color: #dbdee0;
+
+// 字体大小
+@font-size-xxl: var(--font-size-xxl);
+@font-size-xl: var(--font-size-xl);
+@font-size-lg: var(--font-size-lg);
+@font-size-md: var(--font-size-md);
+@font-size-md-s: var(--font-size-md-s);
+@font-size: var(--font-size);
+@font-size-sm: var(--font-size-sm);
+@font-size-xs: var(--font-size-xs);
+@font-size-28: var(--font-size-28);
+
+// 基础文字大小
+@base-font-size: @font-size-sm;
+
+// 行高
+@base-line-height: 1.5; // 正文行高
+@title-line-height: 1.2; // 标题行高
+
+// 屏幕尺寸
+@screen-xxl: 1200px;
+@screen-xl: 1024px;
+@screen-lg: 900px;
+@screen-md: 768px;
+@screen-sm: 640px;
+@screen-xs: 414px;
+@screen-xxs: 320px;
+
+// 间距
+@gap-lg: var(--gap-lg);
+@gap-md: var(--gap-md);
+@gap-base: var(--gap-base);
+@gap-xs: var(--gap-xs);
+@gap-12: var(--gap-12);
+@gap-16: var(--gap-16);
+@gap-18: var(--gap-18);
+@gap-24: var(--gap-24);
+@gap-30: var(--gap-30);
+
+// 圆角
+@b-radius-lg: var(--b-radius-lg);
+@b-radius-md: var(--b-radius-md);
+@b-radius-sm: var(--b-radius-sm);
+
+// 导航
+@nav-height: var(--nav-height);
+// 二级导航
+@sub-nav-height: var(--sub-nav-height);
+// 活动导航高度
+@promotion-height: var(--promotion-hd-height);
+
+@media (max-width:1200px) {
+  :root {
+    // 导航高度
+    --nav-height: 46px;
+    // 二级导航高度
+    --sub-nav-height: 64px;
+    // 活动 banner 高度
+    --promotion-hd-height: 64px;
+  }
+}
+@media (max-width:640px) {
+  :root {
+    --font-size-xxl: 28px;
+    --font-size-xl: 24px;
+    --font-size-lg: 18px;
+    --font-size-md: 18px;
+    --font-size-md-s: 16px;
+    --font-size: 16px;
+    --font-size-sm: 14px;
+    --font-size-xs: 12px;
+    --font-size-28: 20px;
+ 
+    --gap-lg: 56px;
+    --gap-md: 28px;
+    --gap-base: 16px;
+    --gap-xs: 10px;
+    --gap-8: 8px;
+    --gap-12: 12px;
+    --gap-16: 12px;
+    --gap-18: 12px;
+    --gap-24: 18px;
+    --gap-30: 20px;
+    --gap-32: 20px;
+  
+    // 圆角
+    --b-radius-lg: 80px;
+    --b-radius-md: 20px;
+    --b-radius-sm: 8px;
+  }
+}
+
+@media (max-width:414px) {
+  :root {
+    --font-size-28: 14px;
+  }
+}
+
+// 背景透明
+.bg-primary-opacity(@opacity) {
+  background-color: rgba(0, 169, 240, @opacity);
+}
+.bg-secondary-opacity(@opacity) {
+  background-color: rgba(255, 144, 0, @opacity);
+}
+.bg-white-opacity(@opacity) {
+  background-color: rgba(255, 255, 255, @opacity);
+}
+.bg-black-opacity(@opacity) {
+  background-color: rgba(0, 0, 0, @opacity);
+}
+
+// 颜色透明度
+.primary-opacity(@opacity) {
+  color: rgba(0, 169, 240, @opacity);
+}
+.secondary-opacity(@opacity) {
+  color: rgba(255, 144, 0, @opacity);
+}
+.white-opacity(@opacity) {
+  color: rgba(255, 255, 255, @opacity);
+}
+.black-opacity(@opacity) {
+  color: rgba(0, 0, 0, @opacity);
+}
+
+
